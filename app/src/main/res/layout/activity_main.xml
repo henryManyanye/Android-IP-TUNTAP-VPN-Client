@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:gravity="center_vertical|center_horizontal"
+    android:measureWithLargestChild="true"
+    android:orientation="vertical">
+
+    <Button
+        style="@android:style/Widget.Button.Inset"
+        android:id="@+id/button_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:background="@drawable/button"
+        android:onClick="startOrStopTheVpn"
+        android:padding="10sp"
+        android:text="Start"
+        android:textColor="#FFFFFF" />
+
+
+
+    <Button
+        style="@android:style/Widget.Button.Inset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:background="@drawable/button"
+        android:onClick="showUserManual"
+        android:padding="10sp"
+        android:text="Manual"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        style="@android:style/Widget.Button.Inset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:background="@drawable/button"
+        android:onClick="aboutUs"
+        android:padding="10sp"
+        android:text="About us"
+        android:textColor="#FFFFFF" />
+
+
+</LinearLayout>
